@@ -5,8 +5,12 @@ const Home = () => {
   return ( 
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1> Creative  Web Developer </h1>
-        <p>Im a web developer specialized in creating responsive and interactive websites. Im passionate about creating beautiful and functional websites that help businesses grow. </p>
+
+
+        <h1 className={styles.title}> Creative  Web Developer </h1>
+        <p className={styles.desc}>Im a web developer specialized in creating responsive and interactive websites. Im passionate about creating beautiful and functional websites that help businesses grow. </p>
+
+
         <div className={styles.buttons}>
         <button className={styles.button}>See my work</button>
           <button className={styles.button}>Contact Me</button>
@@ -16,7 +20,7 @@ const Home = () => {
 
         </div>
       </div>
-      <div className={styles.textContainer}>
+      <div className={styles.imgContainer}>
         <Image src="/hero.gif" alt= "" fill className={styles.heroImg} />
        </div>
 
