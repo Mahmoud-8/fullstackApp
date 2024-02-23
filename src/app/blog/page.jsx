@@ -1,8 +1,15 @@
-const AboutPage = () => {
+import PostCard from '@/components/postCard/postCard';
+import styles from './blog.module.css';
+
+const BlogPage = () => {
     return ( 
-        <div>AboutPage</div>
+        <div className={styles.container}> 
+        <PostCard />
+        <PostCard />
+        <PostCard />
+        <PostCard />
+        </div>
      );
 }
  
-export default AboutPage
-;
+export default BlogPage;
