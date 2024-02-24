@@ -7,10 +7,8 @@ const AboutPage = () => {
             <div className={styles.textContainer}>
                 <h2 className={styles.subtitle}>About Me</h2>
                 <h1 className={styles.title}>
-                    I am a German teacher and an aspiring web developer
-                </h1>
-                <p className={styles.desc}>
-                    I am a German teacher and an aspiring web developer with over three years of experience in teaching English as a foreign language to adult, adolescent, and young learners. I have a passion for teaching and learning, and I am always looking for ways to improve my skills and knowledge.</p>
+                alias eligendi! Est accusamus vel amet? Aliquam, dolorum eveniet.                </h1>
+                <p className={styles.desc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque fugit sed voluptates, ex fugiat quidem repellendus nemo odit laborum necessitatibus omnis, alias eligendi! Est accusamus vel amet? Aliquam, dolorum eveniet. </p>
                 <div className={styles.boxes}>
 
                     <div className={styles.box}>
